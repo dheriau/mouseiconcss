@@ -1,0 +1,23 @@
+.box {
+width: 100%;
+height: 600px;
+text-align: center;
+border: solid 3px red;
+}
+
+.res1, .res2, .res3 {
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    font-size: 30px;
+    text-align: center;
+    border: 5px solid dashed blue;
+    margin: 30px;
+    background-color: aqua;
+    padding: 30px;
+    
+}
+
+.res1:hover{
+cursor: url('indir.jpg'), cell;
+}
